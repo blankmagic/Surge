@@ -1,5 +1,5 @@
 # AI Services Rule-Set for Surge
-# Usage: RULE-SET,https://blankmagic.github.io/Surge/rule/ai.list,Proxy
+# Usage: RULE-SET,https://blankmagic.github.io/Surge/rule/AI.list,Proxy
 
 # OpenAI ChatGPT
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
