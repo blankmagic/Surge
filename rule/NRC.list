@@ -1,0 +1,9 @@
+# Nike Run Club (NRC) Rule-Set for Surge
+
+# Nike Run Core & Auth
+DOMAIN-SUFFIX,nike.com
+DOMAIN-SUFFIX,nikecloud.com
+DOMAIN-SUFFIX,nikecdn.com
+DOMAIN-SUFFIX,static-nike.com
+DOMAIN-SUFFIX,swoo.sh
+DOMAIN-SUFFIX,swoosh.com
