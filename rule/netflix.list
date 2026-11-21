@@ -1,5 +1,8 @@
-# Netflix
-USER-AGENT,Argo*
+# Netflix Rule-Set for Surge
+# Usage: RULE-SET,https://blankmagic.github.io/Surge/rule/netflix.list,Netflix
+
+# Netflix Domains
+DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
 DOMAIN-SUFFIX,nflxext.com
@@ -7,6 +10,9 @@ DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
-DOMAIN-KEYWORD,netflixdnstest
+
+# Netflix Keywords & User-Agents
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.apiproxy-
+DOMAIN-KEYWORD,netflixdnstest
+USER-AGENT,Argo*
