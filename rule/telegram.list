@@ -1,7 +1,5 @@
-
-
 # Telegram Rule-Set for Surge
-# Usage: RULE-SET,https://blankmagic.github.io/Surge/rule/telegram.list,Proxy
+# Usage: RULE-SET,https://blankmagic.github.io/Surge/rule/telegram.list,Telegram
 
 # Telegram IPv4 CIDR
 IP-CIDR,5.28.195.2/32,no-resolve
