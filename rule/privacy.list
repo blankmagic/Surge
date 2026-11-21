@@ -1,0 +1,83 @@
+# Privacy & Telemetry Block Rule-Set for Surge
+# Usage: RULE-SET,https://blankmagic.github.io/Surge/rule/privacy.list,REJECT
+
+# Telemetry & Log Keywords
+DOMAIN-KEYWORD,analytics.
+DOMAIN-KEYWORD,app-analytics
+DOMAIN-KEYWORD,app-log.
+DOMAIN-KEYWORD,applog.
+DOMAIN-KEYWORD,fzlm
+DOMAIN-KEYWORD,ios-log.
+DOMAIN-KEYWORD,ioslog.
+DOMAIN-KEYWORD,pc-log.
+DOMAIN-KEYWORD,pclog.
+
+# Attribution & Tracking SDKs
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,adjust.io
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-SUFFIX,branch.io
+DOMAIN-SUFFIX,bugly.qq.com
+DOMAIN-SUFFIX,growingio.com
+DOMAIN-SUFFIX,igexin.com
+DOMAIN-SUFFIX,kochava.com
+DOMAIN-SUFFIX,mixpanel.com
+DOMAIN-SUFFIX,mparticle.com
+DOMAIN-SUFFIX,omtrdc.net
+DOMAIN-SUFFIX,scorecardresearch.com
+DOMAIN-SUFFIX,sensorsdata.cn
+DOMAIN-SUFFIX,singular.net
+DOMAIN-SUFFIX,talkingdata.com
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+
+# App Telemetry & Crash Reporting Subdomains
+DOMAIN,data.flurry.com
+DOMAIN,errlog.umeng.com
+DOMAIN,log.umsns.com
+DOMAIN,logs.amap.com
+DOMAIN,metrics.icloud.com
+DOMAIN,metrics.mzstatic.com
+DOMAIN,securemetrics.apple.com
+DOMAIN,supportmetrics.apple.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,sentry.io
+
+# HTTPDNS Domains
+DOMAIN,dns.weixin.qq.com
+DOMAIN,dns.weixin.qq.com.cn
+DOMAIN,httpdns.alicdn.com
+DOMAIN,httpdns.baidubce.com
+DOMAIN,httpdns.bilivideo.com
+DOMAIN,httpdns.c.cdnhwc2.com
+DOMAIN,httpdns.danuoyi.tbcache.com
+DOMAIN,httpdns.huaweicloud.com
+DOMAIN,httpdns.jd.com
+DOMAIN,httpdns.meituan.com
+DOMAIN,httpdns.music.163.com
+DOMAIN,httpdns.n.netease.com
+DOMAIN,httpdns.push.oppomobi.com
+DOMAIN,httpdns.volcengineapi.com
+DOMAIN-SUFFIX,httpdns.pro
+
+# HTTPDNS & Telemetry IPv4 CIDR
+IP-CIDR,0.0.0.1/32,no-resolve
+IP-CIDR,34.215.155.61/32,no-resolve
+IP-CIDR,35.194.26.233/32,no-resolve
+IP-CIDR,35.239.57.233/32,no-resolve
+IP-CIDR,44.228.85.26/32,no-resolve
+IP-CIDR,45.32.105.134/32,no-resolve
+IP-CIDR,77.162.125.199/32,no-resolve
+IP-CIDR,101.226.212.27/32,no-resolve
+IP-CIDR,101.91.140.124/32,no-resolve
+IP-CIDR,109.123.233.251/32,no-resolve
+IP-CIDR,119.29.29.98/32,no-resolve
+IP-CIDR,119.29.29.99/32,no-resolve
+IP-CIDR,157.148.47.204/32,no-resolve
+IP-CIDR,180.76.76.112/32,no-resolve
+IP-CIDR,180.76.76.200/32,no-resolve
+IP-CIDR,185.193.38.148/32,no-resolve
+IP-CIDR,203.107.1.1/24,no-resolve
+IP-CIDR,219.143.187.136/32,no-resolve
